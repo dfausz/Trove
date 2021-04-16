@@ -1,0 +1,7 @@
+<div class="container">
+    <div class="character" *ngFor="let character of characters">
+        {{character.player}} {{character.character}} {{character.initiative}}
+        <button (click)="removeCharacter(character)">-</button>
+    </div>
+    <button (click)="addCharacter()">add</button>
+</div>
