@@ -1,6 +1,28 @@
 @import "src/colors.scss";
 
-.titlebar {
+.app-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.drawer-container {
+    flex: 1;
+}
+
+.drawer-content {
+    padding: 24px 50px;
+}
+
+.menu-item {
+    padding-bottom: 12px;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.footer-container {
+    height: 50px;
     background-color: $charcoal;
-    height: 64px;
 }
